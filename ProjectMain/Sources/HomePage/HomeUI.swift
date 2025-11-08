@@ -14,7 +14,7 @@ struct HomeUI: View {
                 ZStack {
                     Color.green.opacity(0.5)
                         .ignoresSafeArea()
-                        Text("Home")
+                        Text("Hello")
                 }
                 .toolbar {
                     ToolbarItem(placement: .principal) {
