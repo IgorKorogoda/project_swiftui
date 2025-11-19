@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ProjectMain
-//
-//  Created by Игорь on 06.11.2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,16 +6,12 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
 
 struct ContentApp: View {
     var body: some View {
         
         TabView {
-            
-            Text("1")
+            SearchResultsUI()
                 .badge(3)
                 .tabItem {
                     Label("tab.item.home", systemImage: "house")
@@ -46,4 +35,18 @@ struct ContentApp: View {
         }
         .accentColor(.red)
     }
+}
+
+
+
+#Preview {
+    UIKitButton(
+        title: "Конфигурация 1",
+        isExpanded: true,
+        type: .primary,
+        size: .large,
+        state: .enabled) {
+            print("Конфигурация 1" )
+        }
+        .padding()
 }

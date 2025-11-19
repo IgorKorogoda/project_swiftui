@@ -23,6 +23,8 @@ struct HomeUI: View {
                             
                             toolbarTitle
                             
+                            
+                            
                             toolbarImage(name: "chevron.down")
                         }
                     }
@@ -39,7 +41,7 @@ struct HomeUI: View {
 // MARK: - Toolbar Image
 
 private extension HomeUI {
-    
+     
     func toolbarImage(name: String) -> some View {
         Image(systemName: name)
         .resizable()

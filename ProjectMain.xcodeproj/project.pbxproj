@@ -29,9 +29,30 @@
 		783983502EBBF16F00EAC36B /* ProjectMainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectMainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3BD844C02EC8BF0000280633 /* Exceptions for "ProjectMain" folder in "ProjectMainTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				UIKit/Fonts/FontLoader.swift,
+			);
+			target = 783983452EBBF16F00EAC36B /* ProjectMainTests */;
+		};
+		3BD844C12EC8BF0000280633 /* Exceptions for "ProjectMain" folder in "ProjectMainUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				UIKit/Fonts/FontLoader.swift,
+			);
+			target = 7839834F2EBBF16F00EAC36B /* ProjectMainUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7839833B2EBBF16E00EAC36B /* ProjectMain */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3BD844C02EC8BF0000280633 /* Exceptions for "ProjectMain" folder in "ProjectMainTests" target */,
+				3BD844C12EC8BF0000280633 /* Exceptions for "ProjectMain" folder in "ProjectMainUITests" target */,
+			);
 			path = ProjectMain;
 			sourceTree = "<group>";
 		};
